@@ -3,9 +3,9 @@ js-binaryheap-decreasekey
 
 **JS Min Binary Heap implementation w/ decrease-key support.**
 
-I wrote this because I needed a Dijkstra's algorithm with priority queue in my [Paris Public Transports route planning webapp](http://rombdn.github.com/fx-metrobusparis)
-
 The original binary heap implementation is from the book *Eloquent Javascript* by Marijn Haverbeke : [link](http://eloquentjavascript.net/appendix2.html)
+
+Background : I wrote this because I needed a Dijkstra's algorithm with priority queue in my [Paris Public Transports route planning webapp](http://rombdn.github.com/fx-metrobusparis)
 
 
 Usage
