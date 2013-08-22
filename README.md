@@ -5,7 +5,7 @@ js-binaryheap-decreasekey
 
 I wrote this because I needed a Dijkstra's algorithm with priority queue in my [Paris Public Transports route planning webapp](http://rombdn.github.com/fx-metrobusparis)
 
-The original binary heap implementation is from the book *Eloquent Javascript* by Marijn Haverbeke : [source](http://eloquentjavascript.net/appendix2.html)
+The original binary heap implementation is from the book *Eloquent Javascript* by Marijn Haverbeke : [link](http://eloquentjavascript.net/appendix2.html)
 
 
 Usage
@@ -13,10 +13,12 @@ Usage
 
 **Prototype**
 
-*function BinaryHeap( scoreFunction, idFunction, valueProperty )*
-`scoreFunction` must return the property used for ordering
-`idFunction` must return the property used as key
-`valueProperty` is the name of the property to be modified in decreaseKey
+`function BinaryHeap( scoreFunction, idFunction, valueProperty )`
+
+ - `scoreFunction` must return the property used for ordering
+ - `idFunction` must return the property used as key
+ - `valueProperty` is the name of the property to be modified in decreaseKey
+
 
 
 **Example**
